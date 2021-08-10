@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidades para columnas</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <style>
+        .row {
+            background: #e8d8d8;
+            margin-top: 20px;;
+        }
+        .columna{
+            background: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #4d5061;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <!-- Tenemos valores del 1 al 5 para order -->
+            <!-- .order-first -->
+            <!-- .order-last -->
+            <!--  Es util cuando el usuario al llegar a un
+                cierto de tamaño movil quiere cambiar el orden-->
+            <div class="columna col order-4 order-md-1">Columna #1</div>
+            <div class="columna col order-3 order-md-2">Columna #2</div>
+            <div class="columna col order-2 order-md-3">Columna #3</div>
+            <div class="columna col order-1 order-md-4">Columna #4</div>
+        </div>
+
+        <!-- Deplazar columnas -->
+        <div class="row">
+            <div class="columna col-3 offset-3 offset-sm-6">Columna</div>
+        </div>
+
+        <div class="row">
+            <div class="columna col-3 offset-3">Columna</div>
+            <div class="columna col-3 offset-3">Columna</div>
+        </div>
+
+        <!-- col-auto es util cuado se trabaja con iconos en tu pagina web -->
+        <!-- .me-auto  margen al final(end) automatico -->
+        <!-- .ms-auto  margen al inicio(start) automatico-->
+        <div class="row">
+            <div class="columna col-auto me-auto">Columna #1</div>
+            <div class="columna col-auto">Columna #2</div>
+        </div>
+
+        <div class="row">
+            <div class="columna col-auto">Columna #1</div>
+            <div class="columna col-auto ms-auto">Columna #2</div>
+        </div>
+
+    </div>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
