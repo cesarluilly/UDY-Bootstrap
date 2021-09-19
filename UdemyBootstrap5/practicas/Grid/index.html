@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Es immportante cargar la hoja de estilos propia despues de la del bootstrap, 
+    con la finalidad de sobreescribir estilos que no nos gusten -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="row">
+            <div class="col">
+                <h1>Header</h1>
+                <p>12 Columnas</p>
+            </div>
+        </header>
+
+        <section class="contenedor-main row align-items-center">
+            <!-- DE mediano hacia adelante.(md -> l -> xl -> xxl) va a tomar 8 columnas-->
+            <main class="col-md-8">
+                <h2>MAIN</h2>
+                <!-- quiero que por defecto no se muestre per al llegar a una tamaño mediano en adelante que se muestre. -->
+                <p class="d-none d-md-block">8 Columnas</p>
+                <!-- quiero que por defecto se muestre pero al llegar a un tamaño de mediano en adelante que se muestre. -->
+                <p class="d-block d-md-none">12 Columnas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem rerum dignissimos optio praesentium deleniti eaque, accusamus velit saepe? Quidem, architecto error. Perferendis officia maiores eius iusto, iste natus vel.</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolorem rerum dignissimos optio praesentium deleniti eaque, accusamus velit saepe? Quidem, architecto error. Perferendis officia maiores eius iusto, iste natus vel.</p>
+            </main>
+            <aside class="col-md-4">
+                <h3>ASIDE</h3>
+                <!-- quiero que por defecto no se muestre per al llegar a una tamaño mediano en adelante que se muestre. -->
+                <p class="d-none d-md-block">4 Columnas</p>
+                <!-- quiero que por defecto se muestre pero al llegar a un tamaño de mediano en adelante que se muestre. -->
+                <p class="d-block d-md-none">12 Columnas</p>
+            </aside>
+        </section>
+
+        <section class="row widgets justify-content-between">
+            <div class="col-12 col-md-4 col-lg-3">
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño largo en adelante que se 
+                    muestre -->
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño mediano que se muestre y  
+                    que al llegar a un tamaño largo en adelante que no se muestre -->
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <!-- Quiero que por default se muestre pero que al llegar a un tamaño median en adelante que se 
+                    no se muestre -->
+                <p class="d-block d-md-none">12 Columnas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquid dolorum tenetur incidunt eius in nostrum quasi earum atque quaerat, possimus sequi obcaecati dignissimos tempore quia provident deleniti ipsam! Quam!</p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño largo en adelante que se 
+                    muestre -->
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño mediano que se muestre y  
+                    que al llegar a un tamaño largo en adelante que no se muestre -->
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <!-- Quiero que por default se muestre pero que al llegar a un tamaño median en adelante que se 
+                    no se muestre -->
+                <p class="d-block d-md-none">12 Columnas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquid dolorum tenetur incidunt eius in nostrum quasi earum atque quaerat, possimus sequi obcaecati dignissimos tempore quia provident deleniti ipsam! Quam!</p>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg-3">
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño largo en adelante que se 
+                    muestre -->
+                <p class="d-none d-lg-block">3 Columnas</p>
+                <!-- Quiero que por default no se muestre pero que al llegar a un tamaño mediano que se muestre y  
+                    que al llegar a un tamaño largo en adelante que no se muestre -->
+                <p class="d-none d-md-block d-lg-none">4 Columnas</p>
+                <!-- Quiero que por default se muestre pero que al llegar a un tamaño median en adelante que se 
+                    no se muestre -->
+                <p class="d-block d-md-none">12 Columnas</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis aliquid dolorum tenetur incidunt eius in nostrum quasi earum atque quaerat, possimus sequi obcaecati dignissimos tempore quia provident deleniti ipsam! Quam!</p>
+            </div>
+        </section>
+
+        <footer class="row">
+            <div class="col">
+                <h4>Footer</h4>
+                <p>12 Columnas</p>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js//bootstrap.bundle.min.js"></script>
+</body>
+</html>
