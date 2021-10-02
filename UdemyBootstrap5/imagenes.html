@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagenes</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- .img-fluid sirve para que la imagen abarque el ancho
+                    de nuestra columna. -->
+                <img class="img-fluid" src="./img/carousel1.jpg" alt="">
+            </div>
+            <hr>
+            <div class="col-12">
+                <!-- Imagenes floantando al inicio y al final -->
+                <img class="img-fluid float-start img-thumbnail" width="400px" src="./img/bg.jpg" alt="">
+                <img class="img-fluid float-end img-thumbnail" width="400px" src="./img/bg2.jpg" alt="">
+            </div>
+            <hr>
+
+            <div class="row">
+                <div class="col-12">
+                    <!-- Usar figure y figcaption esta optimizada para el navegador
+                        ya que especificamos luego luego que la descripcion es del 
+                        la imagen. -->
+                    <figure class="figure"> 
+                        <img class="img-fluid rounded" width="400px" src="./img/bg3.jpg" alt="">
+                        <figcaption class="figure-caption"> 
+                            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

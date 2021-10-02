@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Colores -->
+				<!-- Tenemos variantes disponibles para toda la tabla, toda una fila, o una celda -->
+				<!-- 
+					.table-primary
+					.table-secondary
+					.table-success
+					.table-danger
+					.table-warning
+					.table-info
+
+					.table-light
+					.table-dark
+				-->
+
+
+				<!-- Clases de tablas -->
+				<!-- Estas clases tambien estan disponbiles para los diferentes colores -->
+				<!-- 
+					.table-striped - Colorea en formato zebra para mejor lectura.
+					.table-hover - Colorea las filas sobre las que pasamos el cursor.
+					.table-bordered - Agrega bordes a la tabla.
+					.border-danger - Colorea el borde.
+					.table-borderless - Quita los bordes, incluso de las filas.
+					.table-sm - Hace una tabla mas compacta quitandole padding a las celdas
+				-->
+
+				<!-- Tabla Responsiva -->
+				<!-- Podemos encerrar la tabla en un div con la clase .table-responsive para hacerla responsiva -->
+                <div class="table-responsive">
+                    <!-- .table -> le da estilos de tabla
+                    .table-striped -> a las columnas impares les pone un color gris.
+                    .table-hover -> cuando el puntero pasa por alguna columna, lo remarca
+                    .table-sm -> elimina los espacios innecesario para compactar la tabla y puedan
+                                caber mas registros de forma visual.  -->
+                    <table class="table table-striped table-hover table-sm">
+                        <caption>Lista de amigos.</caption>
+                        <thead>
+                            <!-- .table-dark -> se puede poner a la tabla, la fila, o incluso a la
+                                columna. -->
+                            <tr class="table-dark">
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Pais</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cesar</td>
+                                <td class="table-primary">25</td>
+                                <td>Mexico</td>
+                            </tr>
+                            <tr class="table-success">
+                                <td>Carlos</td>
+                                <td>30</td>
+                                <td>España</td>
+                            </tr>
+                            <tr>
+                                <td>Alejandro</td>
+                                <td class="table-active">28</td>
+                                <td>Colombia</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
