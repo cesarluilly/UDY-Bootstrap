@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Breadcrumbs</title>
     <!-- .min significa minimizado, es decir que todos los espacios
             en blanco se borran para que el archivo pese menos. -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -14,7 +14,15 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                
+                <!-- Es como una navegacion para indicarle al usuario en que parte
+                    del sitio web se encuentra. -->
+
+                    <nav class="breadcrumb mt-3">
+                        <a href="#" class="breadcrumb-item">Inicio</a>
+                        <a href="#" class="breadcrumb-item">Productos</a>
+                        <a href="#" class="breadcrumb-item">Tablets</a>
+                        <span href="#" class="breadcrumb-item active">IPad</span>
+                    </nav>
             </div>
         </div>
     </div>
