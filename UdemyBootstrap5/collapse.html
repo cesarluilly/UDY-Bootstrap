@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <!-- Collapse.- Nos va a permitir mostrar y ocultar elementos
+                    de nuestra pagina web -->
+                    <a 
+                    href="#contenido-1"
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="collapse"
+                        aria-expanded="false"
+                        aria-controls="contenido-1"
+                    >Informacion</a>
+                    <div class="collapse mt-3" id="contenido-1">
+                        <!-- En este caso pusimos un card -->
+                        <!-- Pero podemos poner todo lo que nosotros
+                            quieramos -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Titulo</h2>
+                                <p class="card-text">Aqui se puede poner la informacion 
+                                    escructura que nosotros queramos.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-6">
+                <!-- Collapse.- Nos va a permitir mostrar y ocultar elementos
+                    de nuestra pagina web -->
+                    <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#contenido-2"
+                        aria-expanded="false"
+                        aria-controls="contenido-2"
+                    >Informacion</button>
+                    <div class="collapse mt-3" id="contenido-2">
+                        <!-- En este caso pusimos un card -->
+                        <!-- Pero podemos poner todo lo que nosotros
+                            quieramos -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h2 class="card-title">Titulo</h2>
+                                <p class="card-text">Aqui se puede poner la informacion 
+                                    escructura que nosotros queramos.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

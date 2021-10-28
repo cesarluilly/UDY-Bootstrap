@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectbox</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-12">
+                <!-- Select de tamaño normal -->
+                <select 
+                    name="pais" 
+                    id="pais" 
+                    class="form-select mb-3" 
+                    aria-label="Seleccion de pais"
+                >
+                    <option value="mexico">Mexico</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                </select>
+                <!-- Select de tamaño grande -->
+                <select 
+                    name="pais" 
+                    id="pais" 
+                    class="form-select form-select-lg mb-3" 
+                    aria-label="Seleccion de pais"
+                >
+                    <option value="mexico">Mexico</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                </select>
+                <!-- Select de tamaño pequeño -->
+                <select 
+                    name="pais" 
+                    id="pais" 
+                    class="form-select form-select-sm mb-3" 
+                    aria-label="Seleccion de pais"
+                >
+                    <option value="mexico">Mexico</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                </select>
+
+                <!-- Select para poder seleccionar varios elementos -->
+                <select 
+                    multiple
+                    size="4"
+                    name="pais" 
+                    id="pais" 
+                    class="form-select mb-3" 
+                    aria-label="Seleccion de pais"
+                >
+                    <option value="mexico">Mexico</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="peru">Peru</option>
+                    <option value="argentina">Argentina</option>
+                </select>
+                <!-- Select desabilitado -->
+                <select 
+                    disabled
+                    name="pais" 
+                    id="pais" 
+                    class="form-select mb-3" 
+                    aria-label="Seleccion de pais"
+                >
+                    <option value="mexico">Mexico</option>
+                    <option value="españa">España</option>
+                    <option value="colombia">Colombia</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
