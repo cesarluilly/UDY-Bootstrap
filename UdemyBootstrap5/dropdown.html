@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- Descripcion:  -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="btn-group gap-2">
+                    <!-- Dropdown con boton. -->
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropdown-1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton dropdown
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Dropdown con enlace. -->
+                    <div class="dropdown">
+                        <a
+                            href=""
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropdown-2"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Enlace dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-2">
+                            <li><a href="" class="dropdown-item">Elemento ##1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento ##2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento ##3</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Dropdown con split. -->
+                    <div class="dropdown">
+                        <div class="btn-group">
+                            <button class="btn btn-success">Boton</button>
+                            <button
+                                class="btn btn-success dropdown-toggle dropdown-toggle-split"
+                                type="button"
+                                id="dropdown-3"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                            <!-- 
+         
+                                Este span es para personas con discapacidad visual para
+                                puedan saber si mostrar u ocultar el dropdown.  -->
+                            <span class="visually-hidden">Mostrar / Ocultar Menu</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-3">
+                                <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                                <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                                <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Dropdown Dark. -->
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-dark dropdown-toggle"
+                            type="button"
+                            id="dropdown-1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton dropdown
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+                <div class="btn-group gap-2">
+                    <!-- Dropdown Grande -->
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-primary btn-lg dropdown-toggle"
+                            type="button"
+                            id="dropdown-1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton dropdown Grande
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Dropdown Pequeño -->
+                    <div class="dropdown">
+                        <button
+                            class="btn btn-primary btn-sm dropdown-toggle"
+                            type="button"
+                            id="dropdown-1"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton dropdown Pequeño
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mt-3 pt-5">
+            <div class="col">
+                <div class="btn-group gap-2">
+                    <!-- Dropup 
+                    Significa que cuando yo le de un click, quiero que el menu se despliegue en 
+                    la parte de arriba. -->
+                    <div class="dropup">
+                        <button
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropup"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton Dropup
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropup">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Dropstart
+                        Significa que cuando yo le de un click, quiero que el menu se despliegue en 
+                        la parte de la IZQUIERDA. -->
+                    <div class="dropstart">
+                        <button
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropstart"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton Dropstart
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropstart">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Dropend
+                        Significa que cuando yo le de un click, quiero que el menu se despliegue en 
+                        la parte de la DERECHA. -->
+                    <div class="dropend">
+                        <button
+                            class="btn btn-primary dropdown-toggle"
+                            type="button"
+                            id="dropend"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                        Boton Dropend
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropend">
+                            <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                            <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!-- Dropdown Contend
+                    Significa que cuando yo le de un click, quiero que el menu se despliegue en 
+                    la parte de la IZQUIERDA. -->
+                <div class="dropdown">
+                    <button
+                        class="btn btn-primary dropdown-toggle"
+                        type="button"
+                        id="dropdown-personalizado"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                    Boton Dropdown personalizado
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-personalizado">
+                        <li>
+                            <h6 class="dropdown-header">Encabezado</h6>
+                        </li>
+                        <li><a href="" class="dropdown-item">Elemento #1</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a href="" class="dropdown-item">Elemento #2</a></li>
+                        <li><a href="" class="dropdown-item">Elemento #3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

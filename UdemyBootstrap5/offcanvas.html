@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offcanvas</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body style="min-height: 1500px;">
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- Descripcion:  Muchas veses vamos a querer un panel que al presionar en un boton pueda aparecer a un costado
+        de la pantalla, para poner informacion como carrito de compras, o menu de navegacion, etc.
+    
+    -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div>
+                    <!-- Boton para desplegar el Offcanvas. -->
+                    <a 
+                        href="#mi-offcanvas"
+                        class="btn btn-primary"
+                        data-bs-toggle="offcanvas"
+                        role="button"
+                        aria-controls="mi-offcanvas"
+                    >
+                        Boton
+                    </a>
+
+                    <!-- Componente de Offcanvas -->
+                    <!-- 
+                        offcanvas-start  aparece a la izquierda
+                        offcanvas-end  aparece a la derecha
+                        offcanvas-top  aparece a la parte superior
+                        offcanvas-bottom  aparece a la parte inferior
+
+                        Es para que cuando aparesca el offcanvas, no se pinte lo
+                        demas en oscuro.
+                        data-bs-backdrop="false"
+
+                        Es para que nosotros podemos hacer scroll en el momento cuando
+                        aparece el offcanvas.
+                        data-bs-scroll="true"
+                     -->
+                    <div class="offcanvas offcanvas-start" tabindex="-1"
+                        id="mi-offcanvas" aria-labelledby="mi-offcanvas"
+                        data-bs-backdrop="true" data-bs-scroll="true">
+
+                        <!-- Offcanvas Header. -->
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">Titulo</h5>
+
+                            <!-- Boton para cerrar el offcanvas. -->
+                            <button 
+                                type="button" 
+                                class="btn-close text-reset"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Cerrar"
+                            >
+                            
+                            </button>
+                        </div>
+                        
+                        <!-- Offcanvas Body. -->
+                        <div class="offcanvas-body">
+                            <p>Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Odit illo quam error culpa doloremque voluptatibus ducimus 
+                                cupiditate at est impedit!</p>
+                        </div>
+                    </div>
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, harum?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

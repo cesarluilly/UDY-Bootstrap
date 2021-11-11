@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paginacion</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- Descripcion:  -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <!-- Paginacion con palabras de anterior y siguiente. -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination">
+                        <li class="page-item disabled" aria-disabled="true" tabindex="-1"><a href="#" class="page-link">
+                            Anterior</a></li>
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <!-- Paginacion con iconos de anterior y siguiente. -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination">
+                        <li 
+                            class="page-item disabled" 
+                            aria-disabled="true" 
+                            tabindex="-1"
+                        >
+                        <!-- Icono de anterior -->
+                            <a href="#" class="page-link" aria-label="Pagina anterior">&laquo</a>
+                        </li>
+
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        
+                        <!-- Icono de siguiente -->
+                        <li class="page-item"><a href="#" class="page-link" aria-label="Pagina Siguiente">&raquo</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <!-- Paginacion de tamaño grande -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination pagination-lg">
+                        <li class="page-item disabled" aria-disabled="true" tabindex="-1"><a href="#" class="page-link">
+                            Anterior</a></li>
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <!-- Paginacion de tamaño pequeño -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination pagination-sm">
+                        <li class="page-item disabled" aria-disabled="true" tabindex="-1"><a href="#" class="page-link">
+                            Anterior</a></li>
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+                <!-- Paginacion centrado. -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled" aria-disabled="true" tabindex="-1"><a href="#" class="page-link">
+                            Anterior</a></li>
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+                    </ul>
+
+                </nav>
+
+                <!-- Paginacion a la derecha -->
+                <nav aria-label="Paginacion de la pagina">
+                    <ul class="pagination justify-content-end">
+                        <li class="page-item disabled" aria-disabled="true" tabindex="-1"><a href="#" class="page-link">
+                            Anterior</a></li>
+                        <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+                        <li class="page-item"><a href="#" class="page-link">2</a></li>
+                        <li class="page-item"><a href="#" class="page-link">3</a></li>
+                        <li class="page-item"><a href="#" class="page-link">Siguiente</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

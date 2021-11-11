@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Importante. Le decimos a los dispositivos moviles como comportarse. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clases para validacion.</title>
+    <!-- .min significa minimizado, es decir que todos los espacios
+            en blanco se borran para que el archivo pese menos. -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body>
+    <!-- -------------------------------------------------------------------------------------------------------------- -->
+    <!-- Descripcion:  -->
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <!-- Validacion para input de texto. -->
+                <form action="">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control is-valid" placeholder="Nombre" 
+                        name="nombre" id="nombre">
+                    <div class="valid-feedback">Correcto</div>
+
+                </form>
+            </div>
+
+            <div class="col-6">
+                <!-- Validacion para input de correo. -->
+                <form action="">
+                    <label for="correo" class="form-label">Correo</label>
+                    <input type="email" class="form-control is-invalid" placeholder="correo@hotmail.com" 
+                        name="correo" id="correo">
+                    <div class="invalid-feedback">Porfavor introduce un correo valido.</div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--archivo. bundle. paquete, minificado -->
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
