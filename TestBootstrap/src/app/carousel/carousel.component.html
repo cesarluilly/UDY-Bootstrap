@@ -1,0 +1,78 @@
+<hr>
+<div class="container">
+    <h1># App-Carousel</h1>
+</div>
+<hr>
+<div class="container">
+    <div class="row mt-5">
+        <div class="col">
+            <!-- NOTA. Los carousel son responsive en bootstrap. -->
+            <div class="carousel slide carousel-fade" id="mi-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="./../../assets/img/carousel1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-caption">
+                            <h5>Titulo de mi articulo</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <img class="img-fluid" src="./../../assets/img/carousel2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="./../../assets/img/carousel3.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Controles -->
+                <!-- Previus -->
+                <button 
+                    class="carousel-control-prev" 
+                    type="button" 
+                    data-bs-target="#mi-carousel"
+                    data-bs-slide="prev"
+                    >
+                        <!-- Mostramos el icono -->
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <!-- Para personas discapacitadas, con esto pueden escucharlo -->
+                        <span class="visually-hidden">Anterior</span>
+                </button>
+                <!-- Next -->
+                <button 
+                    class="carousel-control-next" 
+                    type="button" 
+                    data-bs-target="#mi-carousel"
+                    data-bs-slide="next"
+                    >
+                        <!-- Mostramos el icono -->
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <!-- Para personas discapacitadas, con esto pueden escucharlo -->
+                        <span class="visually-hidden">Siguiente</span>
+                </button>
+                <!-- Indicadores -->
+                <div class="carousel-indicators">
+                    <button 
+                        type="button"   
+                        class="active" 
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="0"
+                        aria-label="Slide 1"
+                    ></button>
+                    <button 
+                        type="button"   
+                        class="" 
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2"
+                    ></button>
+                    <button 
+                        type="button"   
+                        class="" 
+                        data-bs-target="#mi-carousel"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3"
+                    ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

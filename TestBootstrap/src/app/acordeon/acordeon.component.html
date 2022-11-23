@@ -1,0 +1,163 @@
+<hr>
+<div class="container">
+    <h1># App-Acordeon</h1>
+</div>
+<hr>
+<div class="container">
+    
+    <!-- .mt-4 es para agregar un margen al la fila. -->
+    <div class="row mt-4">
+        <div class="col">
+            <!--
+                Le especificamos al contenedor que vamos a trabajar con
+                    un accordion. 
+                .accordion
+
+                Quita los bordes del accordion.
+                .accordion-flush
+             -->
+            <div class="accordion accordion-flush" id="temario">
+                <!-- Elemento #1 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="encabezado-1">
+                        <!-- 
+                            class="accordion-button"
+                            * Indicamos que este elemento es un boton.
+                                type="button"
+
+                            * ELemento de bootstrap que nos dice que cuando
+                                    le demos un click en el boton, se ejecute un 
+                                    collapse
+                                data-bs-toggle="collapse"
+
+                            * Indicamos el elemento al cual queremos ejecutar ese collapse.
+                                data-bs-target="#elemento-1"
+
+                            * Nos permiten que si el html es en modo de lectura, 
+                                    podemos decirle al usuario que es lo que va a suceder cuando
+                                    se le de click en el boton.
+                                aria-expanded="true"
+                                area-controles="elemento-1
+                         -->
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#elemento-1"
+                            aria-expanded="true"
+                            aria-controles="elemento-1"
+                        >
+                            Capitulo #1
+                        </button>
+                    </h2>
+
+                    <div
+                        id="elemento-1"
+                        class="accordion-collapse collapse show"
+                        aria-labelledby="encabezado-1"
+                        data-bs-parent="#temario"
+                    >
+                        <!-- Cuerpo del acordion. -->
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi autem quos ducimus sapiente, pariatur aut asperiores officiis dolore excepturi quae est a sit illo magnam expedita veniam consequuntur! Velit, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Elemento #2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="encabezado-2">
+                        <!-- 
+                            class="accordion-button"
+                            * Indicamos que este elemento es un boton.
+                                type="button"
+
+                            * ELemento de bootstrap que nos dice que cuando
+                                    le demos un click en el boton, se ejecute un 
+                                    collapse
+                                data-bs-toggle="collapse"
+
+                            * Indicamos el elemento al cual queremos ejecutar ese collapse.
+                                data-bs-target="#elemento-1"
+
+                            * Nos permiten que si el html es en modo de lectura, 
+                                    podemos decirle al usuario que es lo que va a suceder cuando
+                                    se le de click en el boton.
+                                aria-expanded="true"
+                                area-controles="elemento-1
+                         -->
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#elemento-2"
+                            aria-expanded="true"
+                            aria-controles="elemento-2"
+                        >
+                            Capitulo #2
+                        </button>
+                    </h2>
+
+                    <div
+                        id="elemento-2"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="encabezado-2"
+                        data-bs-parent="#temario"
+                    >
+                        <!-- Cuerpo del acordion. -->
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi autem quos ducimus sapiente, pariatur aut asperiores officiis dolore excepturi quae est a sit illo magnam expedita veniam consequuntur! Velit, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Elemento #3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="encabezado-3">
+                        <!-- 
+                            class="accordion-button"
+                            * Indicamos que este elemento es un boton.
+                                type="button"
+
+                            * ELemento de bootstrap que nos dice que cuando
+                                    le demos un click en el boton, se ejecute un 
+                                    collapse
+                                data-bs-toggle="collapse"
+
+                            * Indicamos el elemento al cual queremos ejecutar ese collapse.
+                                data-bs-target="#elemento-1"
+
+                            * Nos permiten que si el html es en modo de lectura, 
+                                    podemos decirle al usuario que es lo que va a suceder cuando
+                                    se le de click en el boton.
+                                aria-expanded="true"
+                                area-controles="elemento-1
+                         -->
+                        <button
+                            class="accordion-button"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#elemento-3"
+                            aria-expanded="true"
+                            aria-controles="elemento-3"
+                        >
+                            Capitulo #3
+                        </button>
+                    </h2>
+
+                    <div
+                        id="elemento-3"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="encabezado-3"
+                        data-bs-parent="#temario"
+                    >
+                        <!-- Cuerpo del acordion. -->
+                        <div class="accordion-body">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi autem quos ducimus sapiente, pariatur aut asperiores officiis dolore excepturi quae est a sit illo magnam expedita veniam consequuntur! Velit, cumque.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

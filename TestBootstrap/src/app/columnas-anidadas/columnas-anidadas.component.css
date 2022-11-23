@@ -1,0 +1,19 @@
+.container {
+    margin-top: 20px;
+}
+
+.row{
+    background: #e8e8e8;
+}
+
+.columna{
+    background: #f2f2f2;
+    text-align: center;
+    border: 1px solid #8d8d8d;
+}
+
+.columna-interior{
+    background: #e8e8e8;
+    border: 1ps solid #8d8d8d;
+    padding: 10px;
+}

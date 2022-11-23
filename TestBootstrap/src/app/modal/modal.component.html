@@ -1,0 +1,99 @@
+<hr>
+<div class="container">
+    <h1># App-Modal</h1>
+</div>
+<hr>
+<div class="container">
+    <div class="row mt-3">
+        <div class="col">
+            <!-- Modal 1 -->
+            <button 
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#mi-modal-1"
+            >
+            Abrir modal 1
+            </button>
+            <div 
+                class="modal fade" 
+                id="mi-modal-1"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="label-modal-1"
+            >
+                <!-- Caja de dialogo. -->
+                <div class="modal-dialog">
+                    <!-- Contenido de la caja -->
+                    <div class="modal-content">
+                        <!-- Encabezado de la caja. -->
+                        <div class="modal-header">
+                            <h5 class="modal-title">Titulo del modal 1</h5>
+                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar">
+
+                            </button>
+                        </div>
+                        <!-- Cuerpo de la caja -->
+                        <div class="modal-body">
+                            <h1>Hola Mundo</h1>
+                        </div>
+
+                        <!-- Pie de pagina de la caja. -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                                Cancelar
+                            </button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <!-- Modal 2 -->
+            <button 
+                class="btn btn-primary btn-lg"
+                data-bs-toggle="modal"
+                data-bs-target="#mi-modal-2"
+            >
+            Abrir modal 2
+            </button>
+            <div 
+                class="modal fade" 
+                id="mi-modal-2"
+                tabindex="-1"
+                aria-hidden="true"
+                aria-labelledby="label-modal-2"
+                data-bs-backdrop="static"
+            >
+                <!-- Caja de dialogo. -->
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <!-- Contenido de la caja -->
+                    <div class="modal-content">
+                        <!-- Encabezado de la caja. -->
+                        <div class="modal-header">
+                            <h5 class="modal-title">Titulo del modal 2</h5>
+                            <button class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar">
+
+                            </button>
+                        </div>
+                        <!-- Cuerpo de la caja -->
+                        <div class="modal-body">
+                            <div style="height: 1000px;">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae corrupti eius culpa voluptatem earum ipsum error animi autem qui consequuntur!
+                            </div>
+                        </div>
+
+                        <!-- Pie de pagina de la caja. -->
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">
+                                Cancelar
+                            </button>
+                            <button type="button" class="btn btn-primary">Aceptar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

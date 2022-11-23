@@ -1,0 +1,10 @@
+.row {
+    background: #e8d8d8;
+    margin-top: 20px;;
+}
+.columna{
+    background: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #4d5061;
+}
