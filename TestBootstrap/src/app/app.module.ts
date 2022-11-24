@@ -46,6 +46,7 @@ import { DropdownComponent } from './dropdown/dropdown.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+import { SpinnersComponent } from './spinners/spinners.component';
 
 @NgModule({
   declarations: [
@@ -89,7 +90,8 @@ import { ProgressBarComponent } from './progress-bar/progress-bar.component';
     PaginacionComponent,
     DropdownComponent,
     PopoversComponent,
-    ProgressBarComponent
+    ProgressBarComponent,
+    SpinnersComponent
   ],
   imports: [
     BrowserModule,
