@@ -45,6 +45,7 @@ import { PaginacionComponent } from './paginacion/paginacion.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { PopoversComponent } from './popovers/popovers.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -87,7 +88,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     OffcanvasMenuComponentesComponent,
     PaginacionComponent,
     DropdownComponent,
-    PopoversComponent
+    PopoversComponent,
+    ProgressBarComponent
   ],
   imports: [
     BrowserModule,
