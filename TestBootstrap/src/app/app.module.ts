@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { OffcanvasComponent } from './offcanvas/offcanvas.component';
@@ -41,6 +43,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { OffcanvasMenuComponentesComponent } from './offcanvas-menu-componentes/offcanvas-menu-componentes.component';
 import { PaginacionComponent } from './paginacion/paginacion.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { PopoversComponent } from './popovers/popovers.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -82,11 +86,13 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     NavbarComponent,
     OffcanvasMenuComponentesComponent,
     PaginacionComponent,
-    DropdownComponent
+    DropdownComponent,
+    PopoversComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
