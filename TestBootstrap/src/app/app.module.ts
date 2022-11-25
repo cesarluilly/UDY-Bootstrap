@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -44,9 +44,11 @@ import { OffcanvasMenuComponentesComponent } from './offcanvas-menu-componentes/
 import { PaginacionComponent } from './paginacion/paginacion.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { PopoversComponent } from './popovers/popovers.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 import { SpinnersComponent } from './spinners/spinners.component';
+import { ToastsComponent } from './toasts/toasts.component';
+import { TooltipsComponent } from './tooltips/tooltips.component';
+import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test-ngbootstrap-library.component';
 
 @NgModule({
   declarations: [
@@ -91,7 +93,10 @@ import { SpinnersComponent } from './spinners/spinners.component';
     DropdownComponent,
     PopoversComponent,
     ProgressBarComponent,
-    SpinnersComponent
+    SpinnersComponent,
+    ToastsComponent,
+    TooltipsComponent,
+    TestNgbootstrapLibraryComponent
   ],
   imports: [
     BrowserModule,
