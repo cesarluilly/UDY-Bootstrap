@@ -51,6 +51,7 @@ import { TooltipsComponent } from './tooltips/tooltips.component';
 import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test-ngbootstrap-library.component';
 import { Flexbox1Component } from './flexbox1/flexbox1.component';
 import { Flexbox2Component } from './flexbox2/flexbox2.component';
+import { Flexbox3Component } from './flexbox3/flexbox3.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { Flexbox2Component } from './flexbox2/flexbox2.component';
     TooltipsComponent,
     TestNgbootstrapLibraryComponent,
     Flexbox1Component,
-    Flexbox2Component
+    Flexbox2Component,
+    Flexbox3Component
   ],
   imports: [
     BrowserModule,
