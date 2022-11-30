@@ -49,6 +49,7 @@ import { SpinnersComponent } from './spinners/spinners.component';
 import { ToastsComponent } from './toasts/toasts.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test-ngbootstrap-library.component';
+import { Flexbox1Component } from './flexbox1/flexbox1.component';
 
 @NgModule({
   declarations: [
@@ -96,7 +97,8 @@ import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test
     SpinnersComponent,
     ToastsComponent,
     TooltipsComponent,
-    TestNgbootstrapLibraryComponent
+    TestNgbootstrapLibraryComponent,
+    Flexbox1Component
   ],
   imports: [
     BrowserModule,
