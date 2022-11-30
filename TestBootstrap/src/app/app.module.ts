@@ -54,6 +54,7 @@ import { Flexbox2Component } from './flexbox2/flexbox2.component';
 import { Flexbox3Component } from './flexbox3/flexbox3.component';
 import { UtilidadesEnlacesColoreadosComponent } from './utilidades-enlaces-coloreados/utilidades-enlaces-coloreados.component';
 import { UtilidadesRatiosComponent } from './utilidades-ratios/utilidades-ratios.component';
+import { UtilidadesPositionComponent } from './utilidades-position/utilidades-position.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +107,8 @@ import { UtilidadesRatiosComponent } from './utilidades-ratios/utilidades-ratios
     Flexbox2Component,
     Flexbox3Component,
     UtilidadesEnlacesColoreadosComponent,
-    UtilidadesRatiosComponent
+    UtilidadesRatiosComponent,
+    UtilidadesPositionComponent
   ],
   imports: [
     BrowserModule,
