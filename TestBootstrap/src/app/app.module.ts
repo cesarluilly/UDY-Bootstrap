@@ -52,6 +52,7 @@ import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test
 import { Flexbox1Component } from './flexbox1/flexbox1.component';
 import { Flexbox2Component } from './flexbox2/flexbox2.component';
 import { Flexbox3Component } from './flexbox3/flexbox3.component';
+import { UtilidadesEnlacesColoreadosComponent } from './utilidades-enlaces-coloreados/utilidades-enlaces-coloreados.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { Flexbox3Component } from './flexbox3/flexbox3.component';
     TestNgbootstrapLibraryComponent,
     Flexbox1Component,
     Flexbox2Component,
-    Flexbox3Component
+    Flexbox3Component,
+    UtilidadesEnlacesColoreadosComponent
   ],
   imports: [
     BrowserModule,
