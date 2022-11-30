@@ -50,6 +50,7 @@ import { ToastsComponent } from './toasts/toasts.component';
 import { TooltipsComponent } from './tooltips/tooltips.component';
 import { TestNgbootstrapLibraryComponent } from './test-ngbootstrap-library/test-ngbootstrap-library.component';
 import { Flexbox1Component } from './flexbox1/flexbox1.component';
+import { Flexbox2Component } from './flexbox2/flexbox2.component';
 
 @NgModule({
   declarations: [
@@ -98,7 +99,8 @@ import { Flexbox1Component } from './flexbox1/flexbox1.component';
     ToastsComponent,
     TooltipsComponent,
     TestNgbootstrapLibraryComponent,
-    Flexbox1Component
+    Flexbox1Component,
+    Flexbox2Component
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+.contenedor{
+    margin-bottom: 20px;
+    background: #8d6efd;
+    color: #fff;
+    height: 100px;
+}
+
+.contenedor > div {
+    background: rgb(255, 255, 255, .2);
+    padding: 15px;
+    border: 1px #8d6efd solid;
+}
