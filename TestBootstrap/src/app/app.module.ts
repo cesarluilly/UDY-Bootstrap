@@ -59,6 +59,7 @@ import { VisuallyHiddenComponent } from './visually-hidden/visually-hidden.compo
 import { StrechedLinksComponent } from './streched-links/streched-links.component';
 import { FondosComponent } from './fondos/fondos.component';
 import { BordesComponent } from './bordes/bordes.component';
+import { OverflowComponent } from './overflow/overflow.component';
 
 @NgModule({
   declarations: [
@@ -116,7 +117,8 @@ import { BordesComponent } from './bordes/bordes.component';
     VisuallyHiddenComponent,
     StrechedLinksComponent,
     FondosComponent,
-    BordesComponent
+    BordesComponent,
+    OverflowComponent
   ],
   imports: [
     BrowserModule,
