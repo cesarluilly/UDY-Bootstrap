@@ -58,6 +58,7 @@ import { UtilidadesPositionComponent } from './utilidades-position/utilidades-po
 import { VisuallyHiddenComponent } from './visually-hidden/visually-hidden.component';
 import { StrechedLinksComponent } from './streched-links/streched-links.component';
 import { FondosComponent } from './fondos/fondos.component';
+import { BordesComponent } from './bordes/bordes.component';
 
 @NgModule({
   declarations: [
@@ -114,7 +115,8 @@ import { FondosComponent } from './fondos/fondos.component';
     UtilidadesPositionComponent,
     VisuallyHiddenComponent,
     StrechedLinksComponent,
-    FondosComponent
+    FondosComponent,
+    BordesComponent
   ],
   imports: [
     BrowserModule,
