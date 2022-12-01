@@ -55,6 +55,8 @@ import { Flexbox3Component } from './flexbox3/flexbox3.component';
 import { UtilidadesEnlacesColoreadosComponent } from './utilidades-enlaces-coloreados/utilidades-enlaces-coloreados.component';
 import { UtilidadesRatiosComponent } from './utilidades-ratios/utilidades-ratios.component';
 import { UtilidadesPositionComponent } from './utilidades-position/utilidades-position.component';
+import { VisuallyHiddenComponent } from './visually-hidden/visually-hidden.component';
+import { StrechedLinksComponent } from './streched-links/streched-links.component';
 
 @NgModule({
   declarations: [
@@ -108,7 +110,9 @@ import { UtilidadesPositionComponent } from './utilidades-position/utilidades-po
     Flexbox3Component,
     UtilidadesEnlacesColoreadosComponent,
     UtilidadesRatiosComponent,
-    UtilidadesPositionComponent
+    UtilidadesPositionComponent,
+    VisuallyHiddenComponent,
+    StrechedLinksComponent
   ],
   imports: [
     BrowserModule,
