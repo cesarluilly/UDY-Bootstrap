@@ -57,6 +57,7 @@ import { UtilidadesRatiosComponent } from './utilidades-ratios/utilidades-ratios
 import { UtilidadesPositionComponent } from './utilidades-position/utilidades-position.component';
 import { VisuallyHiddenComponent } from './visually-hidden/visually-hidden.component';
 import { StrechedLinksComponent } from './streched-links/streched-links.component';
+import { FondosComponent } from './fondos/fondos.component';
 
 @NgModule({
   declarations: [
@@ -112,7 +113,8 @@ import { StrechedLinksComponent } from './streched-links/streched-links.componen
     UtilidadesRatiosComponent,
     UtilidadesPositionComponent,
     VisuallyHiddenComponent,
-    StrechedLinksComponent
+    StrechedLinksComponent,
+    FondosComponent
   ],
   imports: [
     BrowserModule,
