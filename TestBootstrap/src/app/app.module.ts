@@ -61,6 +61,7 @@ import { FondosComponent } from './fondos/fondos.component';
 import { BordesComponent } from './bordes/bordes.component';
 import { OverflowComponent } from './overflow/overflow.component';
 import { SombrasComponent } from './sombras/sombras.component';
+import { SizingComponent } from './sizing/sizing.component';
 
 @NgModule({
   declarations: [
@@ -120,7 +121,8 @@ import { SombrasComponent } from './sombras/sombras.component';
     FondosComponent,
     BordesComponent,
     OverflowComponent,
-    SombrasComponent
+    SombrasComponent,
+    SizingComponent
   ],
   imports: [
     BrowserModule,
