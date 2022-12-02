@@ -60,6 +60,7 @@ import { StrechedLinksComponent } from './streched-links/streched-links.componen
 import { FondosComponent } from './fondos/fondos.component';
 import { BordesComponent } from './bordes/bordes.component';
 import { OverflowComponent } from './overflow/overflow.component';
+import { SombrasComponent } from './sombras/sombras.component';
 
 @NgModule({
   declarations: [
@@ -118,7 +119,8 @@ import { OverflowComponent } from './overflow/overflow.component';
     StrechedLinksComponent,
     FondosComponent,
     BordesComponent,
-    OverflowComponent
+    OverflowComponent,
+    SombrasComponent
   ],
   imports: [
     BrowserModule,
