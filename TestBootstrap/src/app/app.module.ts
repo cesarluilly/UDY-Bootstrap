@@ -40,7 +40,7 @@ import { ListGroupComponent } from './list-group/list-group.component';
 import { ModalComponent } from './modal/modal.component';
 import { NavsComponent } from './navs/navs.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { OffcanvasMenuComponentesComponent } from './offcanvas-menu-componentes/offcanvas-menu-componentes.component';
+import { OffcanvasMenuComponentesComponent } from './practicas-bootstrap5/offcanvas-menu-componentes/offcanvas-menu-componentes.component';
 import { PaginacionComponent } from './paginacion/paginacion.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { PopoversComponent } from './popovers/popovers.component';
@@ -62,6 +62,7 @@ import { BordesComponent } from './bordes/bordes.component';
 import { OverflowComponent } from './overflow/overflow.component';
 import { SombrasComponent } from './sombras/sombras.component';
 import { SizingComponent } from './sizing/sizing.component';
+import { PracticasBootstrap5Module } from './practicas-bootstrap5/practicas-bootstrap5.module';
 
 @NgModule({
   declarations: [
@@ -127,7 +128,8 @@ import { SizingComponent } from './sizing/sizing.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    PracticasBootstrap5Module
   ],
   providers: [],
   bootstrap: [AppComponent]
