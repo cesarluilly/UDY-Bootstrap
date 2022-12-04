@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
 .borderBlue {
     border: solid blue 1px;
 }
@@ -13,3 +12,12 @@
 .positionFixed {
     position: fixed;
 }
+
+/* fuentes para modulo app-portafolio-cesar*/
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* fin de fuentes para modulo app-portafolio-cesar*/

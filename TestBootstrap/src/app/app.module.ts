@@ -63,6 +63,7 @@ import { OverflowComponent } from './practicas-bootstrap5/overflow/overflow.comp
 import { SombrasComponent } from './practicas-bootstrap5/sombras/sombras.component';
 import { SizingComponent } from './practicas-bootstrap5/sizing/sizing.component';
 import { PracticasBootstrap5Module } from './practicas-bootstrap5/practicas-bootstrap5.module';
+import { PortafolioModule } from './portafolio/portafolio.module';
 
 @NgModule({
   declarations: [
@@ -129,7 +130,8 @@ import { PracticasBootstrap5Module } from './practicas-bootstrap5/practicas-boot
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    PracticasBootstrap5Module
+    PracticasBootstrap5Module,
+    PortafolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
