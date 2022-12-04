@@ -14,6 +14,14 @@ header .logo .icono {
     color: #bfbfbf;
 }
 
+header .logo svg{
+    width: 20px;
+    height: 20px;
+}
+
+header .logo p {
+    color: #777777;
+}
 header .menu .c1 { background: #3da5e2;}
 header .menu .c2 { background: #005385;}
 header .menu .c3 { background: #003855;}
