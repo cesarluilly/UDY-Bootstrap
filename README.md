@@ -1,8 +1,8 @@
 # UDY-Bootstrap
 
 ## Paso para creal el Portafolio
-
-* Agrego las fuentes de Opens Sans de Ligh, regular, Bold (300, 400, 600, 700) al Index.
+> ### Video 65 - Encabezado
+* Agrego las fuentes de Opens Sans de Ligh, regular, Bold (300, 400, 600, 700) al Index y en el css lo referencio.
 ![video65Fonts](./imgReadme/video65Fonts.png)
 
 * Encabezado Original a diseñar
@@ -13,7 +13,24 @@
 
     * ![video65Esqueleto](./imgReadme/video65Esqueleto.png)
 
+* Codigo terminado y presentacion del encabezado
+    * **Desktop** ![video65PracticaCompletadaDesktop](./imgReadme/video65PracticaCompletadaDesktop.png)
 
+    * **Mobile** ![video65PracticaCompletadaMobile](./imgReadme/video65PracticaCompletadaMobile.png)
+
+> ### Video 66 - Slideshow
+
+> ### Video 67 - Galeria de trabajos (Parte I)
+
+> ### Video 68 - Galeria de trabajos (Parte II) - Diseño Responsive
+
+> ### Video 69 - Galeria de trabajos (Parte III) - Codigo Javascript de la galeria
+
+> ### Video 70 - Seccion de acerca de
+
+> ### Video 71 - Formulario de contacto
+
+> ### Video 72 - Pie de pagina
 
 
 
