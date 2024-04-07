@@ -21,3 +21,15 @@ body {
 
 
 /* fin de fuentes para modulo app-portafolio-cesar*/
+
+/* Estilos y variables para Atomic-Design1*/
+:root{
+  --black:#000;
+  --white:#fff;
+  --navy:#4C4C6D;
+  --light-teal:#E8F6EF;
+  --teal:#1B9C85;
+  --yellow:#FFE194;
+}
+
+

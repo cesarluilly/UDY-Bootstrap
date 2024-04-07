@@ -64,6 +64,9 @@ import { SombrasComponent } from './practicas-bootstrap5/sombras/sombras.compone
 import { SizingComponent } from './practicas-bootstrap5/sizing/sizing.component';
 import { PracticasBootstrap5Module } from './practicas-bootstrap5/practicas-bootstrap5.module';
 import { PortafolioModule } from './portafolio/portafolio.module';
+import { Bem1Component } from './practicas-bootstrap5/bem1/bem1.component';
+import { Bem2Component } from './practicas-bootstrap5/bem2/bem2.component';
+import { AtomicDesign1Component } from './practicas-bootstrap5/atomic-design1/atomic-design1.component';
 
 @NgModule({
   declarations: [
@@ -124,7 +127,10 @@ import { PortafolioModule } from './portafolio/portafolio.module';
     BordesComponent,
     OverflowComponent,
     SombrasComponent,
-    SizingComponent
+    SizingComponent,
+    Bem1Component,
+    Bem2Component,
+    AtomicDesign1Component
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+<hr>
+<div class="container">
+    <h1># App-Bem2</h1>
+    <h2>NO TERMINE COMPLETO EL VIDEO, POR LO TANTO ESTO ESTA INCOMPLETO</h2>
+    <a href="https://www.youtube.com/watch?v=bvnzyXGkNY4">Metodologia BEM</a>
+</div>
+<hr>
+
+<!-- METODOLOGIA BEM
+    Bloques(componentes de nuestro sitio que quieramos poder reutilizar en otra parte
+      de nuestra pagina),
+    Elementos()
+    Modificados()
+  -->
+
+  <!--
+    Normalmente lo que hariamos si no trabajamos con BEM lo hariamos de la siguiente forma:
+
+  <div class="card">
+    <a href="" class="contenedor_imagen"></a>
+    <div class="textos"></div>
+  </div>
+  -->
+<div class="contenedor">
+  <div class="card"> <!-- BLOQUE -->
+    <a href="/../../assets/img/1.jpg" class="car__thumbnail">
+      <img class="card__img" src="" alt=""> <!--Elemento de card
+                                                aqui no esta directamente asociado
+                                              con su componete, pero al esta dentro
+                                              indirectamente con el bloque pero con la
+                                              nomenclarua correta de BEM correcto
+                                              nombre para que sea elemento,
+                                              por eso se considera elemento de card-->
+    </a>
+    <div class="card__textos">
+      <h3 class="card__titulo">
+        <a href="#" class="card__enlace">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</a>
+        <p class="card__extracto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eligendi voluptatibus ratione asperiores vero est, ea tenetur dolor itaque placeat quibusdam eum saepe voluptates voluptas. Quisquam architecto vero nemo hic?</p>
+        <a href="#" class="boton"> <!--Bloque-->
+          <span class="boton__texto">Ver mas</span></a>
+          <i class="boton__icono fas fa-arrow-right"></i>
+      </h3>
+    </div>
+  </div>
+
+</div>
+
+
+
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
