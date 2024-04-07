@@ -67,6 +67,8 @@ import { PortafolioModule } from './portafolio/portafolio.module';
 import { Bem1Component } from './practicas-bootstrap5/bem1/bem1.component';
 import { Bem2Component } from './practicas-bootstrap5/bem2/bem2.component';
 import { AtomicDesign1Component } from './practicas-bootstrap5/atomic-design1/atomic-design1.component';
+import { AtomicDesign1TemplateComponent } from './practicas-bootstrap5/atomic-design1-template/atomic-design1-template.component';
+import { AtomicDesign1PagesComponent } from './practicas-bootstrap5/atomic-design1-pages/atomic-design1-pages.component';
 
 @NgModule({
   declarations: [
@@ -130,7 +132,9 @@ import { AtomicDesign1Component } from './practicas-bootstrap5/atomic-design1/at
     SizingComponent,
     Bem1Component,
     Bem2Component,
-    AtomicDesign1Component
+    AtomicDesign1Component,
+    AtomicDesign1TemplateComponent,
+    AtomicDesign1PagesComponent
   ],
   imports: [
     BrowserModule,

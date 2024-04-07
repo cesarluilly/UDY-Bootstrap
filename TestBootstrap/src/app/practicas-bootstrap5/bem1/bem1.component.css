@@ -1,4 +1,7 @@
 
+/*
+ESTO NO FUNCIONA EN COMPONENTES, EN LUGAR DE ESTO
+HABRIA QUE UTILIZAR MEJOR UNA CLASE
 *{
   margin: 0;
   padding: 0;
@@ -9,6 +12,10 @@
 body{
   font-family: arial;
 }
+
+*/
+
+
 
 .navLink{
   text-decoration: none;

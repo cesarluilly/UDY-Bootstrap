@@ -7,35 +7,46 @@
 </div>
 <hr>
 
+<h1 class="ms-5">**PROTONES**</h1>
 <div class="imposter">
   <div class="protones">
-    <h1 class="title">Titulo</h1>
-    <h2 class="subtitle">Subtitulo</h2>
-    <p class="text">Texto normal</p>
-    <div class="circle circle--navy"></div>
+    <h1 class="title">Proton Titulo</h1>
+    <h2 class="subtitle">Proton Subtitulo</h2>
+    <p class="text">Proton Texto normal</p>
+    <div class="circle circle--navy">proton forma</div>
     <div class="circle circle--teal"></div>
     <div class="circle circle--yellow"></div>
     <div class="circle circle--light-teal"></div>
   </div>
 
-  <!--Atomos NOTA CESAR.- Si nos fijamos en la nomenclatura, sigue la metodologia
-                          BEM, solo que aqui el concepto de atomo va porque
-                          el bloque es un nivel arriba de un nodo final de texto
-                          o tambien puede interpretarse porque no tiene
-                          bloques ni elementos adentro
-                        -->
-  <div class="atomos">
-    <img class="responsive--image" src="" alt="dummy image">
-    <button class="button button--primary">Button primary</button>
-    <button class="button button--secondary">Button secondary</button>
+
+
+  <h1 class="ms-5">**ATOMOS**</h1>
+  <div class="atomos"> <!-- Este es solo es un contenedor para decir que es la
+                            seccion de ATOMOS -->
+
+    <!--Atomo NOTA CESAR.- Si nos fijamos en la nomenclatura, sigue la metodologia
+                            BEM, solo que aqui el concepto de atomo va porque
+                            el bloque es un nivel arriba de un nodo final de texto
+                            o tambien puede interpretarse porque no tiene
+                            bloques ni elementos adentro
+                          -->
+    <img class="responsive--image" src="https://dummyimage.com/300x200" alt="Atomo dummy image">
+    <button class="button button--primary">Atomo Button primary</button>
+    <button class="button button--secondary">Atomo Button secondary</button>
   </div>
 
-  <!-- Moleculas NOTA CESAR.- Parece aqui que estuviera siguiendo
-                              la metodologia BEM donde un bloque
-                              es una molecula, solo que el concepto de molecula
-                              va dado por el nombre que es algo mas grande y
-                              contiene atomos(bloques) -->
-  <div class="moleculas">
+  <h1 class="ms-5">**MOLECULAS**</h1>
+  <div class="moleculas"> <!-- Este es solo es un contenedor para decir que es la
+    seccion de MOLECULAS -->
+
+    <!-- Molecula NOTA CESAR.- 1) Aqui sigue la misma metodologia de BEM donde un bloque
+                                es una molecula, solo que el concepto de molecula
+                                va dado por el nombre que es algo mas grande y
+                                contiene atomos(bloques) y elementos del bloque.
+                                2) Ojo. Si nos fijamos la molecula tiene sus elementos
+                                 pero tambien puede tene un bloque(ATOMO) directamente
+                              -->
     <div class="card">
       <div class="car__img">
         <img class="responsive--image" src="https://dummyimage.com/300x200" alt="dummy image">
@@ -47,6 +58,67 @@
       </div>
 
       <button class="button button--primary">Button primary</button>
+    </div>
+  </div>
+
+
+  <h1 class="ms-5">**ORGANISMOS**</h1>
+  <div class="organismos"> <!-- Este es solo es un contenedor para decir que es la
+    seccion de ORGANISMOS -->
+
+    <!-- Organismos NOTA CESAR.- 1) Por lo general el organismo se nombran con el nombre
+                               de la molecula pero en PLURAL.
+                               2) El organismo llamado "cards" y en general cualquier
+                                  organismo es un bloque que esta mas orientado
+                                  a ser un contenedor de moleculas(bloques) y no deberia de tener
+                                  elementos ya que solo tiene moleculas(bloques),
+                                  y tal ves pudiera tener modificador ese organismo(bloque) pero
+                                  es muy raro ese caso
+    -->
+
+    <div class="cards"> <!--El organismo se llama "cards" en plural -->
+      <!-- Copiamos la molecula y lo pegamos -->
+      <div class="card">
+        <div class="car__img">
+          <img class="responsive--image" src="https://dummyimage.com/300x200" alt="dummy image">
+        </div>
+        <div class="car__info">
+          <h1 class="title">Titulo</h1>
+          <h2 class="subtitle">Subtitulo</h2>
+          <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consectetur!</p>
+        </div>
+
+        <button class="button button--primary">Button primary</button>
+      </div>
+
+      <!-- Copiamos una segunda molecula y lo pegamos-->
+      <div class="card">
+        <div class="car__img">
+          <img class="responsive--image" src="https://dummyimage.com/300x200" alt="dummy image">
+        </div>
+        <div class="car__info">
+          <h1 class="title">Titulo</h1>
+          <h2 class="subtitle">Subtitulo</h2>
+          <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consectetur!</p>
+        </div>
+
+        <button class="button button--primary">Button primary</button>
+      </div>
+
+      <!-- Copiamos una tercera molecula y lo pegamos -->
+      <div class="card">
+        <div class="car__img">
+          <img class="responsive--image" src="https://dummyimage.com/300x200" alt="dummy image">
+        </div>
+        <div class="car__info">
+          <h1 class="title">Titulo</h1>
+          <h2 class="subtitle">Subtitulo</h2>
+          <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere, consectetur!</p>
+        </div>
+
+        <button class="button button--primary">Button primary</button>
+      </div>
+
     </div>
   </div>
 </div>

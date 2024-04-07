@@ -1,8 +1,11 @@
+/*
+ESTO NO FUNCIONA EN COMPONENTES, EN LUGAR DE ESTO
+HABRIA QUE UTILIZAR MEJOR UNA CLASE
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-}
+} */
 
 body {
 	background: #F6F6FE;

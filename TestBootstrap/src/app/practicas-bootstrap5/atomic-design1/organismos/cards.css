@@ -1,0 +1,24 @@
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px var(--teal);
+  border-radius: 5px;
+  padding: 2rem 4rem;
+}
+
+/* ESTILOS UNICAMENTE ESTATICOS PARA .cards */
+.cards>*{
+  margin: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
