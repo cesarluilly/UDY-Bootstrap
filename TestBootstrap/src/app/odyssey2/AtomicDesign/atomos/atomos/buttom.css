@@ -1,0 +1,33 @@
+/* adButtom adButtom--addNew */
+@import url('./../../../../../styles.css');
+
+
+.adButtom{
+  border: none;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  color: white;
+  text-decoration: none;
+}
+
+.adButtom--addNew{
+  padding: 1rem 2rem;
+  background-color: var(--odyBlueNewButtom);
+}
+
+.adButtom--addNew:hover{
+  opacity: 0.8;
+}
+
+.adButtom--delete{
+  padding: 1rem 1rem;
+  background-color: var(--odyRedDelete);
+}
+
+.adButtom--delete:hover{
+  opacity: 0.8;
+}

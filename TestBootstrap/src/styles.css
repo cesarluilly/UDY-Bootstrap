@@ -34,6 +34,12 @@ body {
   --light-teal:#E8F6EF;
   --teal:#1B9C85;
   --yellow:#FFE194;
+
+  /* COLORES PARA ODYSSEY */
+  --odyGreenSeparator: #bbd963;
+  --odyBlueNewButtom:#78CDD2;
+  --odyGrewSeparator: #D0D3D4;
+  --odyRedDelete: #BE1E2D;
 }
 
 

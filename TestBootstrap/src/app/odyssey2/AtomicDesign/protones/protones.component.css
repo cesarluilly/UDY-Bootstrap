@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.adTitle{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 2rem;
+  font-style: normal;
+}
+
+.adTexto{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.adSeparadorPrincipal{
+  border: 2px solid var(--odyGreenSeparator);
+  border-radius: 10px;
+  opacity: 100%;
+}

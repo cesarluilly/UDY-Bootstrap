@@ -69,6 +69,12 @@ import { Bem2Component } from './practicas-bootstrap5/bem2/bem2.component';
 import { AtomicDesign1Component } from './practicas-bootstrap5/atomic-design1/atomic-design1.component';
 import { AtomicDesign1TemplateComponent } from './practicas-bootstrap5/atomic-design1-template/atomic-design1-template.component';
 import { AtomicDesign1PagesComponent } from './practicas-bootstrap5/atomic-design1-pages/atomic-design1-pages.component';
+import { Odyssey2Module } from './odyssey2/odyssey2.module';
+import { AtomosComponent } from './odyssey2/AtomicDesign/atomos/atomos.component';
+import { MoleculasComponent } from './odyssey2/AtomicDesign/moleculas/moleculas.component';
+import { ProtonesComponent } from './odyssey2/AtomicDesign/protones/protones.component';
+import { OrganismosComponent } from './odyssey2/AtomicDesign/organismos/organismos.component';
+import { TemplatesComponent } from './odyssey2/AtomicDesign/templates/templates.component';
 
 @NgModule({
   declarations: [
@@ -135,13 +141,15 @@ import { AtomicDesign1PagesComponent } from './practicas-bootstrap5/atomic-desig
     AtomicDesign1Component,
     AtomicDesign1TemplateComponent,
     AtomicDesign1PagesComponent
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
     PracticasBootstrap5Module,
-    PortafolioModule
+    PortafolioModule,
+    Odyssey2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

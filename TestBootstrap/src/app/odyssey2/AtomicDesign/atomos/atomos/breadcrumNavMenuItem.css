@@ -1,0 +1,17 @@
+.breadcrumbNavItem {
+  display: inline;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in;
+}
+
+.breadcrumbNavItem > a{
+  color: #585856;
+  text-decoration: none;
+}
+
+.breadcrumbNavItem--marked > a {
+  color: black;
+  font-weight: 700;
+}
